@@ -1,75 +1,75 @@
 # Hackathon Ada Tech 2024
 
-### Organização do repositório
+### Organizaï¿½ï¿½o do repositï¿½rio
 
-1° Façam um clone do repositório na sua máquina local
+1ï¿½ Faï¿½am um clone do repositï¿½rio na sua mï¿½quina local
 
-2° Crie sua branch usando o comando:
+2ï¿½ Crie sua branch usando o comando:
 
       git checkout -b NomeDaSuaBranch
 
-3° As contribuições devem ser feitas pela branch criada  
+3ï¿½ As contribuiï¿½ï¿½es devem ser feitas pela branch criada  
 
 
-# Exploração do Conjunto de Dados dos Funcionários  
+# Exploraï¿½ï¿½o do Conjunto de Dados dos Funcionï¿½rios  
 
-Este projeto tem como objetivo explorar e visualizar o conjunto de dados dos funcionários obtido de uma empresa. O conjunto de dados contém várias características dos funcionários, como gênero, idade, raça, educação, endereço, estado, tempo de casa, departamento e senioridade. A análise inclui limpeza de dados, visualização de distribuições e insights sobre as características da força de trabalho.
+Este projeto tem como objetivo explorar e visualizar o conjunto de dados dos funcionï¿½rios obtido de uma empresa. O conjunto de dados contï¿½m vï¿½rias caracterï¿½sticas dos funcionï¿½rios, como gï¿½nero, idade, raï¿½a, educaï¿½ï¿½o, endereï¿½o, estado, tempo de casa, departamento e senioridade. A anï¿½lise inclui limpeza de dados, visualizaï¿½ï¿½o de distribuiï¿½ï¿½es e insights sobre as caracterï¿½sticas da forï¿½a de trabalho.
 
-## Informações do Conjunto de Dados  
+## Informaï¿½ï¿½es do Conjunto de Dados  
 
 O conjunto de dados inclui as seguintes colunas:  
 
-- `ID`: ID do funcionário
-- `Nome`: Nome do funcionário
-- `Gênero`: Gênero do funcionário
-- `Idade`: Idade do funcionário
-- `Raça`: Raça do funcionário
-- `Formação`: Nível de educação do funcionário
-- `Endereço`: Endereço do funcionário
-- `Estado`: Estado do funcionário
-- `Tempo de Casa`: Tempo de permanência do funcionário na empresa
-- `Departamento`: Departamento onde o funcionário trabalha
-- `Senioridade`: Nível de senioridade do funcionário
+- `ID`: ID do funcionï¿½rio
+- `Nome`: Nome do funcionï¿½rio
+- `Gï¿½nero`: Gï¿½nero do funcionï¿½rio
+- `Idade`: Idade do funcionï¿½rio
+- `Raï¿½a`: Raï¿½a do funcionï¿½rio
+- `Formaï¿½ï¿½o`: Nï¿½vel de educaï¿½ï¿½o do funcionï¿½rio
+- `Endereï¿½o`: Endereï¿½o do funcionï¿½rio
+- `Estado`: Estado do funcionï¿½rio
+- `Tempo de Casa`: Tempo de permanï¿½ncia do funcionï¿½rio na empresa
+- `Departamento`: Departamento onde o funcionï¿½rio trabalha
+- `Senioridade`: Nï¿½vel de senioridade do funcionï¿½rio
 
-## Limpeza e Preparação dos Dados  
+## Limpeza e Preparaï¿½ï¿½o dos Dados  
 
 - Removida a segunda coluna 'id'.
 - Renomeadas as colunas para melhor legibilidade.
 - Reordenadas as colunas.
-- Padronizadas as categorias de gênero.
-- Capitalizadas as categorias de raça.
-- Capitalizadas as categorias de educação.
+- Padronizadas as categorias de gï¿½nero.
+- Capitalizadas as categorias de raï¿½a.
+- Capitalizadas as categorias de educaï¿½ï¿½o.
 - Padronizadas as categorias de senioridade.
-- Substituído '\r\n' por ';' na coluna 'Endereço'.
-- Substituído ',' por ';' na coluna 'Endereço'.
+- Substituï¿½do '\r\n' por ';' na coluna 'Endereï¿½o'.
+- Substituï¿½do ',' por ';' na coluna 'Endereï¿½o'.
 - Convertidas as colunas 'Idade' e 'Tempo de Casa' para o tipo inteiro.  
 
-## Visualização  
+## Visualizaï¿½ï¿½o  
 
-O projeto inclui visualização de várias distribuições no conjunto de dados:  
+O projeto inclui visualizaï¿½ï¿½o de vï¿½rias distribuiï¿½ï¿½es no conjunto de dados:  
 
-- Histograma da distribuição de idade.
-- Gráfico de pizza mostrando a distribuição de gênero.
-- Gráfico de barras mostrando a distribuição de raça.
-- Gráfico de barras mostrando a distribuição de educação.
-- Gráfico de barras mostrando a distribuição de estado.
-- Gráfico de barras mostrando a distribuição de região.
-- Gráfico de barras mostrando a distribuição de departamento.
-- Gráfico de barras mostrando a distribuição de senioridade.
-- Histograma da distribuição de tempo de casa.   
+- Histograma da distribuiï¿½ï¿½o de idade.
+- Grï¿½fico de pizza mostrando a distribuiï¿½ï¿½o de gï¿½nero.
+- Grï¿½fico de barras mostrando a distribuiï¿½ï¿½o de raï¿½a.
+- Grï¿½fico de barras mostrando a distribuiï¿½ï¿½o de educaï¿½ï¿½o.
+- Grï¿½fico de barras mostrando a distribuiï¿½ï¿½o de estado.
+- Grï¿½fico de barras mostrando a distribuiï¿½ï¿½o de regiï¿½o.
+- Grï¿½fico de barras mostrando a distribuiï¿½ï¿½o de departamento.
+- Grï¿½fico de barras mostrando a distribuiï¿½ï¿½o de senioridade.
+- Histograma da distribuiï¿½ï¿½o de tempo de casa.   
 
 ## Ferramentas e Bibliotecas  
 
 O projeto foi implementado usando as seguintes ferramentas e bibliotecas:
 
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Requests
-- ftfy  
+- Python 3.11.7
+- Pandas 2.1.4
+- Matplotlib 3.8.0
+- Seaborn 0.12.2
+- Requests 2.31.0
+- ftfy  6.2.0
 
 ## Como Usar  
 
-- Clone este repositório para sua máquina local.
-- Execute o arquivo Jupyter Notebook para explorar o conjunto de dados e as visualizações.
+- Clone este repositï¿½rio para sua mï¿½quina local.
+- Execute o arquivo Jupyter Notebook para explorar o conjunto de dados e as visualizaï¿½ï¿½es.
