@@ -117,7 +117,7 @@ A usabilidade da ferramenta não se limita em apenas atualização do cadastro e
 
 Acreditamos que, para o desenvolvimento de uma organização que almeja destaque e sucesso, é importantíssimo diversificar e incluir todas as pessoas da sociedade. Assim, são descobertos grandes talentos, verdadeiras joias, que trazem destaque e contribuições significativas para o negócio e para a sociedade.
 
-## Como Usar Este Repósitorio
+## Como Usar Este Repositório
 
 Atente-se as políticas de `Licenças` do projeto e siga os passos a seguir:
 
